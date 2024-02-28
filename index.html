@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bedroom Map</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="buttons">
+        <p>click to play, double-click to pause</p>
+        <button 
+            id="one" 
+            onclick="playSound('songone')" 
+            ondblclick="pauseSound('songone')">
+            Sound Bath by Sleeping Vibrations
+        </button>
+        <button 
+            id="two" 
+            onclick="playSound('songtwo')" 
+            ondblclick="pauseSound('songtwo')">
+            Michelle by Yusef Lateef
+        </button>
+        <button 
+            id="three" 
+            onclick="playSound('songthree')" 
+            ondblclick="pauseSound('songthree')">
+            Mangata by Marc Holstege
+        </button>
+        <button 
+            id="four" 
+            onclick="playSound('songfour')" 
+            ondblclick="pauseSound('songfour')">
+            Mexican Dream by Piero Piccioni
+        </button>
+    </div>
+    
+
+    <div class="songs">
+        <audio id="songone" src="soundbath.mp3" preload="auto"></audio>
+        <audio id="songtwo" src="guitar.mp3" preload="auto"></audio>
+        <audio id="songthree" src="studytechno.mp3" preload="auto"></audio>
+        <audio id="songfour" src="jazz.mp3" preload="auto"></audio>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

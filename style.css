@@ -1,0 +1,33 @@
+body{
+    background-image: url(ulecroom.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+button{
+    height: 20vh;
+    width: 20vw;
+    background-color: #fae334;
+    opacity: .4;
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+}
+
+#one{
+    margin-top: 45vh;
+    margin-left: 20vw;
+}
+
+#two{
+    margin-top: 80vh;
+    margin-left: 20vw;
+}
+
+#three{
+    margin-top: 50vh;
+    margin-left: -10vw;
+}
+
